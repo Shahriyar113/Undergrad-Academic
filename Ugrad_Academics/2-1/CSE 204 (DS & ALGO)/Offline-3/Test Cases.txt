@@ -1,0 +1,61 @@
+Problem 1::
+Test 1:
+12*(-1) = -12
+Test 2:
+12*123/((-5)+2) = -492
+Test 3:
+((80-(19))) = 61
+Test 4:
+(1-2)+(((-4))) = -5
+Test 5:
+1+1 = 2
+Test 6:
+2/2+3*4.75--6 = invalid 
+Test 7:
+12*(-123) = -1476
+Test 8:
+2/(2+3)*4.33-(-6.792) = 8.524000000000001
+Test 9:
+((2.33/(2.9+3.5)*4)-(-6.34)) = 7.79625
+Test 10:
+123.45*(678.90/((-2.5)+11.5)-(80-19)*33.25)/20+11 = -12042.760875
+Test 11***:
+(123.45*(678.90/((-2.5)+11.5)-(((80-(19)))*33.25))/20)-(123.45*(678.90/(-2.5+11.5)-(((80-(19)))*33.25))/20)+(13-2)/(-11) = Not valid
+Test 12:
+(123.45*(678.90/((-2.5)+11.5)-(((80-(19)))*33.25))/20)-(123.45*(678.90/((-2.5)+11.5)-(((80-(19)))*33.25))/20)+(13-2)/(-11) = -1
+Test 12:
+"12*(-123) = -1476"    Not valid (= is not allowed) **
+Test 13:
+123.45*(678.90/(-2.5+11.5)-(80-19)*33.25)/0+11   = invalid   // divided by 0 **
+Test 14:
+123 = 123
+Test 15:
+-123 = not valid **
+Test 16:
+(-123)    =   -123
+Test 17:
+(((1-5)+( 3.93* 2.34)* 10)+(10+10+19-8*7/6+10)) =  127.62866666666665 
+Test 18:
+(9*3-(7*8+((-4/2))) = invalid
+Test 19:
+(-1)-(-3) = 2
+Test 20:
+((-1)-(-3)) = 2
+
+Problem 2::
+Test 1:
+"aabc"  =   "a#bb"
+Test 2:
+"aac"   =   "a#c"
+Test 3:
+"abcabc" = "aaabc#"
+Test 4:
+"abadbc" = "aabbdd"
+Test 5:
+"abacbad" = "aabbccc"
+Test 6:
+"jyhrcwuengcbnuchctluxjgtxqtfvrebveewgasluuwooupcyxwgl" = "jjjjjjjjjjjjjjjjjjjjjyyyyyyyyyyyyyyyyyyyyyyyyyyyqqqqq"
+Test 7:
+"aaaaa" = "a####"
+Test 8:
+"gibblegabbler" = "ggggggiiiiiii"

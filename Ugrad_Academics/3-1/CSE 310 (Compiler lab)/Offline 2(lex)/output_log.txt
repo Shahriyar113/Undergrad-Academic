@@ -1,0 +1,295 @@
+Line no 1: Token <INT> lexeme int found
+
+Line no 1: Token <ID> lexeme main found
+
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 1: Token <LPAREN> lexeme ( found
+
+Line no 1: Token <RPAREN> lexeme ) found
+
+Line no 1: Token <LCURL> lexeme { found
+
+Line no 2: Token <INT> lexeme int found
+
+Line no 2: Token <ID> lexeme a found
+
+
+ScopeTable #1.1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < a : ID >   
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 2: Token <COMMA> lexeme , found
+
+Line no 2: Token <ID> lexeme b found
+
+
+ScopeTable #1.1
+
+0 -->  < b : ID >   
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < a : ID >   
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 2: Token <SEMICOLON> lexeme ; found
+
+Line no 3: Token <ID> lexeme a found
+
+Line no 3: Token <ASSIGNOP> lexeme = found
+
+Line no 3: Token <ID> lexeme a found
+
+Line no 3: Token <ADDOP> lexeme + found
+
+Line no 3: Token <CONST_INT> lexeme 1 found
+
+
+ScopeTable #1.1
+
+0 -->  < b : ID >    < 1 : CONST_INT >   
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < a : ID >   
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 3: Token <SEMICOLON> lexeme ; found
+
+Line no 4: Token <CHAR> lexeme char found
+
+Line no 4: Token <ID> lexeme ch found
+
+
+ScopeTable #1.1
+
+0 -->  < b : ID >    < 1 : CONST_INT >   
+1 -->  < ch : ID >   
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < a : ID >   
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 4: Token <ASSIGNOP> lexeme = found
+
+Line no 4: Token <CONST_CHAR> lexeme 'a' found  --> <CONST_CHAR, a> 
+
+
+ScopeTable #1.1
+
+0 -->  < b : ID >    < 1 : CONST_INT >   
+1 -->  < ch : ID >   
+2 -->  < 'a' : CONST_CHAR >   
+3 --> 
+4 --> 
+5 --> 
+6 -->  < a : ID >   
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 4: Token <SEMICOLON> lexeme ; found
+
+Line no 5: Token <ID> lexeme ch found
+
+Line no 5: Token <ASSIGNOP> lexeme = found
+
+Line no 5: Token <CONST_CHAR> lexeme '\t' found  --> <CONST_CHAR, 	> 
+
+
+ScopeTable #1.1
+
+0 -->  < b : ID >    < 1 : CONST_INT >   
+1 -->  < ch : ID >   
+2 -->  < 'a' : CONST_CHAR >   
+3 --> 
+4 --> 
+5 -->  < '\t' : CONST_CHAR >   
+6 -->  < a : ID >   
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 5: Token <SEMICOLON> lexeme ; found
+
+Line no 6: Token <CHAR> lexeme char found
+
+Line no 6: Token <ID> lexeme c found
+
+
+ScopeTable #1.1
+
+0 -->  < b : ID >    < 1 : CONST_INT >   
+1 -->  < ch : ID >    < c : ID >   
+2 -->  < 'a' : CONST_CHAR >   
+3 --> 
+4 --> 
+5 -->  < '\t' : CONST_CHAR >   
+6 -->  < a : ID >   
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 6: Token <LTHIRD> lexeme [ found
+
+Line no 6: Token <RTHIRD> lexeme ] found
+
+Line no 6: Token <ASSIGNOP> lexeme = found
+
+Line no 6: TOKEN <STRING> Lexeme "ab\td" found --> <STRING,"ab	d">
+
+Line no 6: Token <SEMICOLON> lexeme ; found
+
+Line no 7: Token <ID> lexeme printf found
+
+
+ScopeTable #1.1
+
+0 -->  < b : ID >    < 1 : CONST_INT >   
+1 -->  < ch : ID >    < c : ID >   
+2 -->  < 'a' : CONST_CHAR >   
+3 --> 
+4 --> 
+5 -->  < '\t' : CONST_CHAR >   
+6 -->  < a : ID >    < printf : ID >   
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 7: Token <LPAREN> lexeme ( found
+
+Line no 7: TOKEN <STRING> Lexeme "abc\
+def\
+ghi" found --> <STRING,"abcdefghi">
+
+Line no 9: Token <RPAREN> lexeme ) found
+
+Line no 9: Token <SEMICOLON> lexeme ; found
+
+Line no 10: Token <COMMENT> lexeme // a comment found 
+
+Line no 11: Token <COMMENT> lexeme /** another
+*** comment ***/ found 
+
+Line no 13: Token <RETURN> lexeme return found
+
+Line no 13: Token <CONST_INT> lexeme 0 found
+
+
+ScopeTable #1.1
+
+0 -->  < b : ID >    < 1 : CONST_INT >   
+1 -->  < ch : ID >    < c : ID >   
+2 -->  < 'a' : CONST_CHAR >   
+3 --> 
+4 --> 
+5 -->  < '\t' : CONST_CHAR >   
+6 -->  < a : ID >    < printf : ID >    < 0 : CONST_INT >   
+
+ScopeTable #1
+
+0 --> 
+1 --> 
+2 --> 
+3 --> 
+4 --> 
+5 --> 
+6 -->  < main : ID >   
+
+Line no 13: Token <SEMICOLON> lexeme ; found
+
+Line no 14: Token <RCURL> lexeme } found
+
+ScopeTable with id 1.1 removed
+
+
+
+Total Line Number:  14
+total errors: 0

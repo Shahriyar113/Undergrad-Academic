@@ -1,0 +1,941 @@
+HTTP Request: GET / HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:02 BDT 2022
+Content-Type: text/html
+Content-Length: 207
+
+Content:
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<h1> Welcome to CSE 322 Offline 1000 </h1>
+		<h2>  <a href="root"> root </a>  </h2>
+
+	</body>
+</html>
+
+
+HTTP Request: GET /root HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:04 BDT 2022
+Content-Type: text/html
+Content-Length: 329
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/abc.mp4"> abc.mp4 </a></li>
+ <li><a href ="/root/dir1"> <b><i>dir1</i></b> </a></li>
+ <li><a href ="/root/doc1.docx"> doc1.docx </a></li>
+ <li><a href ="/root/file1.txt"> file1.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:06 BDT 2022
+Content-Type: text/html
+Content-Length: 361
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2"> <b><i>dir2</i></b> </a></li>
+ <li><a href ="/root/dir1/file2.txt"> file2.txt </a></li>
+ <li><a href ="/root/dir1/imgsend.jpg"> imgsend.jpg </a></li>
+ <li><a href ="/root/dir1/pdfsend.pdf"> pdfsend.pdf </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/dir2 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:08 BDT 2022
+Content-Type: text/html
+Content-Length: 245
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2/dir3"> <b><i>dir3</i></b> </a></li>
+ <li><a href ="/root/dir1/dir2/send.txt"> send.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/dir2/dir3 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:09 BDT 2022
+Content-Type: text/html
+Content-Length: 185
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2/dir3/file3.txt"> file3.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/dir2/dir3/file3.txt HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:11 BDT 2022
+Content-Type: text/html
+Content-Length: 134
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+<large> </large>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/file2.txt HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:24 BDT 2022
+Content-Type: text/html
+Content-Length: 139
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+<large> 1234
+</large>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/imgsend.jpg HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:27 BDT 2022
+Content-Type: image/jpeg
+Content-Length: 2718541
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Offline_on_Socket\root\dir1\imgsend.jpg
+
+
+HTTP Request: GET / HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:38 BDT 2022
+Content-Type: text/html
+Content-Length: 207
+
+Content:
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<h1> Welcome to CSE 322 Offline 1000 </h1>
+		<h2>  <a href="root"> root </a>  </h2>
+
+	</body>
+</html>
+
+
+HTTP Request: GET /root HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:42 BDT 2022
+Content-Type: text/html
+Content-Length: 329
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/abc.mp4"> abc.mp4 </a></li>
+ <li><a href ="/root/dir1"> <b><i>dir1</i></b> </a></li>
+ <li><a href ="/root/doc1.docx"> doc1.docx </a></li>
+ <li><a href ="/root/file1.txt"> file1.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/abc.mp4 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:48 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 2396918823
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Offline_on_Socket\root\abc.mp4
+
+
+HTTP Request: GET /root/abc.mp4 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:41:53 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 2396918823
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Offline_on_Socket\root\abc.mp4
+
+
+HTTP Request: GET /root/abc.mp4 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:42:05 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 2396918823
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Offline_on_Socket\root\abc.mp4
+
+
+HTTP Request: GET /root/doc1.docx HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:42:11 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 11260
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Offline_on_Socket\root\doc1.docx
+
+
+HTTP Request: GET / HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:00 BDT 2022
+Content-Type: text/html
+Content-Length: 207
+
+Content:
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<h1> Welcome to CSE 322 Offline 1000 </h1>
+		<h2>  <a href="root"> root </a>  </h2>
+
+	</body>
+</html>
+
+
+HTTP Request: GET /root HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:03 BDT 2022
+Content-Type: text/html
+Content-Length: 329
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/abc.mp4"> abc.mp4 </a></li>
+ <li><a href ="/root/dir1"> <b><i>dir1</i></b> </a></li>
+ <li><a href ="/root/doc1.docx"> doc1.docx </a></li>
+ <li><a href ="/root/file1.txt"> file1.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:06 BDT 2022
+Content-Type: text/html
+Content-Length: 361
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2"> <b><i>dir2</i></b> </a></li>
+ <li><a href ="/root/dir1/file2.txt"> file2.txt </a></li>
+ <li><a href ="/root/dir1/imgsend.jpg"> imgsend.jpg </a></li>
+ <li><a href ="/root/dir1/pdfsend.pdf"> pdfsend.pdf </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/imgsend.jpg HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:08 BDT 2022
+Content-Type: image/jpeg
+Content-Length: 2718541
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\imgsend.jpg
+
+
+HTTP Request: GET /root/dir1/dir2 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:11 BDT 2022
+Content-Type: text/html
+Content-Length: 306
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2/dir3"> <b><i>dir3</i></b> </a></li>
+ <li><a href ="/root/dir1/dir2/Kaba.png"> Kaba.png </a></li>
+ <li><a href ="/root/dir1/dir2/send.txt"> send.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/dir2/send.txt HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:14 BDT 2022
+Content-Type: text/html
+Content-Length: 884
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+<large> 12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+</large>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/dir2/Kaba.png HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:16 BDT 2022
+Content-Type: image/png
+Content-Length: 244332
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\dir2\Kaba.png
+
+
+HTTP Request: GET /root/dir1/dir2/dir3 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:23 BDT 2022
+Content-Type: text/html
+Content-Length: 185
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2/dir3/file3.txt"> file3.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/file2.txt HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:27 BDT 2022
+Content-Type: text/html
+Content-Length: 139
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+<large> 1234
+</large>
+</body>
+</html>
+
+HTTP Request: GET /root/abc.mp4 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:33 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 2396918823
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\abc.mp4
+
+
+HTTP Request: GET /root/doc1.docx HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:39 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 11260
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\doc1.docx
+
+
+HTTP Request: GET /root/abc.mp4 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:50:54 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 2396918823
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\abc.mp4
+
+
+HTTP Request: GET /root/dir1 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:51:12 BDT 2022
+Content-Type: text/html
+Content-Length: 361
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2"> <b><i>dir2</i></b> </a></li>
+ <li><a href ="/root/dir1/file2.txt"> file2.txt </a></li>
+ <li><a href ="/root/dir1/imgsend.jpg"> imgsend.jpg </a></li>
+ <li><a href ="/root/dir1/pdfsend.pdf"> pdfsend.pdf </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/abc.mp4 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:51:15 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 2396918823
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\abc.mp4
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:51:25 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:51:25 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:51:25 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:51:25 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:51:25 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:51:25 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 15:51:25 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET / HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:13 BDT 2022
+Content-Type: text/html
+Content-Length: 163
+
+Content:
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+
+		<h2>  <a href="root"> root </a>  </h2>
+
+	</body>
+</html>
+
+
+HTTP Request: GET /root HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:17 BDT 2022
+Content-Type: text/html
+Content-Length: 329
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/abc.mp4"> abc.mp4 </a></li>
+ <li><a href ="/root/dir1"> <b><i>dir1</i></b> </a></li>
+ <li><a href ="/root/doc1.docx"> doc1.docx </a></li>
+ <li><a href ="/root/file1.txt"> file1.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:19 BDT 2022
+Content-Type: text/html
+Content-Length: 361
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2"> <b><i>dir2</i></b> </a></li>
+ <li><a href ="/root/dir1/file2.txt"> file2.txt </a></li>
+ <li><a href ="/root/dir1/imgsend.jpg"> imgsend.jpg </a></li>
+ <li><a href ="/root/dir1/pdfsend.pdf"> pdfsend.pdf </a></li>
+</body>
+</html>
+
+HTTP Request: GET / HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:29 BDT 2022
+Content-Type: text/html
+Content-Length: 163
+
+Content:
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+
+		<h2>  <a href="root"> root </a>  </h2>
+
+	</body>
+</html>
+
+
+HTTP Request: GET /root HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:31 BDT 2022
+Content-Type: text/html
+Content-Length: 329
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/abc.mp4"> abc.mp4 </a></li>
+ <li><a href ="/root/dir1"> <b><i>dir1</i></b> </a></li>
+ <li><a href ="/root/doc1.docx"> doc1.docx </a></li>
+ <li><a href ="/root/file1.txt"> file1.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/abc.mp4 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:32 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 2396918823
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\abc.mp4
+
+
+HTTP Request: GET /root/dir1 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:38 BDT 2022
+Content-Type: text/html
+Content-Length: 361
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2"> <b><i>dir2</i></b> </a></li>
+ <li><a href ="/root/dir1/file2.txt"> file2.txt </a></li>
+ <li><a href ="/root/dir1/imgsend.jpg"> imgsend.jpg </a></li>
+ <li><a href ="/root/dir1/pdfsend.pdf"> pdfsend.pdf </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/imgsend.jpg HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:41 BDT 2022
+Content-Type: image/jpeg
+Content-Length: 2718541
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\imgsend.jpg
+
+
+HTTP Request: GET /root/dir1/dir2 HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:44 BDT 2022
+Content-Type: text/html
+Content-Length: 306
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+ <li><a href ="/root/dir1/dir2/dir3"> <b><i>dir3</i></b> </a></li>
+ <li><a href ="/root/dir1/dir2/Kaba.png"> Kaba.png </a></li>
+ <li><a href ="/root/dir1/dir2/send.txt"> send.txt </a></li>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/dir2/Kaba.png HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:45 BDT 2022
+Content-Type: image/png
+Content-Length: 244332
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\dir2\Kaba.png
+
+
+HTTP Request: GET /root/dir1/dir2/send.txt HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:48 BDT 2022
+Content-Type: text/html
+Content-Length: 884
+
+Content:
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+<large> 12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+12345111111111111111111111111111111111111111111111111111111111111111111111
+</large>
+</body>
+</html>
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:54 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:54 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:54 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:54 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:54 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:54 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+
+HTTP Response
+--------------
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Dec 26 16:02:54 BDT 2022
+Content-type: application/x-force-download
+Content-Length: 633428
+
+Content: C:\Users\ASUS\Desktop\Java_practices\Web_Server\root\dir1\pdfsend.pdf
+
+

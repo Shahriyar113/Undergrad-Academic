@@ -1,0 +1,22 @@
+I have changed
+-------------
+
+1)Four functions in "Sentence" file
+
+2)3 functions in "Minesweeper AI" class
+
+3)In "Minesweeper" class the rules for "count" is changed at
+ "nearby_count() function"
+
+ Flow of execution
+ -----------------
+ 1)At first before starting the game,8 mines are randomly set in 8 different position.
+ The mine position remains same throughout the game
+
+ 2)When an user or AI makes a move (means clicking a cell) , if the cell contains a mine then "LOST" the game...if
+ the cell does not contain a mine then " nearby count"(means koyta neighbouring cell a mine ase) for that cell is calculated and then
+ "add_knowledge()" function of "MinesweeperAI" class is called.. This snippet of code is wriiten in the last if block(if move:) of 
+ "runner.py" file
+
+ 3)Then in "add_knowledge()" method knew sentences are added and the existing sentences are modified
+ 

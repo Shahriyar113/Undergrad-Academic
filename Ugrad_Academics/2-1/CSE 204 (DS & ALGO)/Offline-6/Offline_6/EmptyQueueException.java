@@ -1,0 +1,9 @@
+package Offline_6;
+
+public class EmptyQueueException extends Exception {
+
+    @Override
+    public String toString() {
+        return "Queue is empty";
+    }
+}

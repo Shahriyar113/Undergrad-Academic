@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1654745920 source:c:\users\asus\desktop\symbol_table_generator\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<stdlib.h>
+	<sstream>
+

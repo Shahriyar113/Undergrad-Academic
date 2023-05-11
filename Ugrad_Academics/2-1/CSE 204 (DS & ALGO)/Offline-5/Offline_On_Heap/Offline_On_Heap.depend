@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1622268350 source:c:\users\asus\desktop\offline_on_heap\trial.cpp
+	<iostream>
+	<fstream>
+	<cstdio>
+	<queue>
+	<ctime>
+	"heap.h"
+
+1622268350 source:c:\users\asus\desktop\offline_on_heap\main.cpp
+	<fstream>
+	<cstdio>
+	<queue>
+	<ctime>
+	"heap.h"
+
+1622268496 c:\users\asus\desktop\offline_on_heap\heap.h
+	<stdlib.h>
+	<stdio.h>
+	<queue>
+	<vector>
+	<iostream>
+
+1617948538 c:\users\asus\desktop\offline_on_heap\max_heap.h
+	<iostream>
+	<stdexcept>
+	<vector>
+

@@ -1,0 +1,19 @@
+int var(int,float);
+
+int foo(int a)
+{
+	return 5;
+}
+
+int var (int a,int b)
+{
+ return 5;
+}
+
+int main()
+{
+
+int a;
+return 0;
+
+}
