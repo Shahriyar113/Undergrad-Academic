@@ -1,0 +1,15 @@
+Old VM
+--------
+cp /home/seed/CSE_406/Necessary_docs/exploit.py .
+ssh -i CSE-406_key.pem seed@20.235.240.157
+scp -i ./CSE-406_key.pem online-B2.zip seed@20.235.240.157:/home/seed/CSE_406
+
+https://infosecwriteups.com/linux-kernel-communication-part-1-netfilter-hooks-15c07a5a5c4e
+https://man.cx/?page=iptables(8)
+
+
+new VM
+--------
+ssh -i CSE406new_key.pem fahim@40.81.235.29
+
+ssh -i C:\Users\ASUS\Desktop\CSE406new_key.pem fahim@40.81.235.29

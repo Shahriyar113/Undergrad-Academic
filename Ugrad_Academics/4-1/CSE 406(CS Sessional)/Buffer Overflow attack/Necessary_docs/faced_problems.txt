@@ -1,0 +1,4 @@
+1)"b foo" diye breakpoint dile line 7 a na theme line 10 a thamtase keno? sir er recording a toh line 7 ei thamsilo(stack_dbg te ai problem hoy)
+
+2)Malicious code run korar por "whoami" dile "root" dekhacche na 
+3)super user 'seed' and normal user 'seed' both theke ./stack run korle malicious code run hoy...super user er significance ki ekhane 
